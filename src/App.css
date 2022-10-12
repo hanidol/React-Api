@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@600&display=swap");
+* {
+  font-family: "Noto Sans Balinese", sans-serif;
+}
+:root {
+  --primary-color: #a14fd4;
+  --secondary-color: #6727e8;
+}
+body {
+  background-color: var(--primary-color);
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+hr {
+  width: 60%;
+  height: 1px;
+  background-color: #000;
+}
+.header {
+  background-color: var(--secondary-color);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+p {
+  width: 100%;
+  margin: 1em auto;
+  text-align: center;
+  font-family: cursive;
+}
+.cont {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title {
+  width: 100%;
+  margin: 1em auto;
+  color: rgb(255, 0, 47);
+  font-family: cursive;
+}
